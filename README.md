@@ -39,3 +39,12 @@ npm config ls 检查一下清单
 
 8、这是一个链接有通配符的介绍
 https://github.com/isaacs/node-glob
+
+
+9、基本插件
+src  dest task  watch（文件监视自动执行） pipe default
+http://www.gulpjs.com.cn/docs/api/
+
+10、功能性插件
+gulp不支持任何功能  利用基础功能安装插件实现功能
+www.npmjs/com/pakage/*  安装的插件的名字 可以找到官方的文档
