@@ -1,4 +1,4 @@
-放假了。搜索了一下github上的前段集成工具。gulp火热。学习一下gulp。
+有通配符的放假了。搜索了一下github上的前段集成工具。gulp火热。学习一下gulp。
 
 
 1、安装nodesjs。可以使用国内的npm.taobao.org. 也可以使用国外的官网安装。并且可以使用cnpm。
@@ -24,3 +24,18 @@ npm config ls 检查一下清单
 
 4、npm升级  
 建议替换source code    在github上找稳定的版本替换npm里面的所有的代码
+
+5、npm init 初始化 配置文件
+
+6、本地化安装gulp包 npm install gulp --save
+
+
+7、创建任务：gulpfile.js是gulp的主文件
+首先 加载gulp 定义一个常量
+分配重复的操作
+其次： 定义一个任务  gulp.task('hello',fucntion(){})name fucntion
+执行  命令行执行  gulp + 任务名字
+
+
+8、这是一个链接有通配符的介绍
+https://github.com/isaacs/node-glob
