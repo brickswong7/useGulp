@@ -1,0 +1,14 @@
+本地同步好最新的代码，修改或者替换你那个有问题的文件xxx，
+直接修改：
+$git pull
+$git add xxx;
+$git commit -m "modified file xxx"
+$git push origin   (HEAD:your-remote-branch)括号内可以省略
+删除的话：
+$git pull
+$git rm xxx;git commit -m "rm file xxx"
+$git push origin
+强行回退(极不推荐，会导致其他人同步代码报错)：
+$git pull
+$git reset --hard commit-id(你的错误提交的那个commit id  SHA值)
+$git push origin -f
