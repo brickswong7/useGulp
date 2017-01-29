@@ -1,3 +1,8 @@
+git status check files loaded or not 
+
+git commit -m "update"   update commit
+
+git push origin master   // can git push once you already had printed git push origin master 
 update
 git push origin master
 
